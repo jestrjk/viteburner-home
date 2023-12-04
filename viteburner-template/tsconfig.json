@@ -2,6 +2,7 @@
   "compilerOptions": {
     "module": "esnext",
     "target": "esnext",
+    "jsx": "react",
     "lib": ["esnext", "dom"],
     "types": ["vite/client"],
     "strict": true,
@@ -21,5 +22,5 @@
       "@react": ["react"]
     }
   },
-  "include": ["src/**/*.ts", "src/**/*.js", "NetscriptDefinitions.d.ts", "vite.config.ts", "vite.config.js"]
+  "include": ["src/**/*.ts", "src/**/*.js", "NetscriptDefinitions.d.ts", "vite.config.ts", "vite.config.js", "src/ReactNodes/TestMessage.tsx"]
 }
